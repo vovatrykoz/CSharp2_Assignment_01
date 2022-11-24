@@ -104,8 +104,6 @@ animal = new Dog(...
 (MainForm). It is this class, which only and fully is responsible for all interactions with the
 user. No other logics should be placed in this class.
 3.9 The program should not crash for any input given by the user.
-Programming in C# II Assignment 1
-Farid Naisan, Senior Lecturer, Malmö University, farid.naisan@mau.se 4(5)
 3.10 The project should be well organized into subfolders in which you save a group of related
 classes..
 4 Specifications and Requirements for a higher grade (A, B)
