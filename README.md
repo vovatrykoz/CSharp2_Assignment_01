@@ -35,6 +35,7 @@ Birds, and Reptiles. The categories along with some species are outlined below.
 - male,
 - female,
 - unknown.
+
 Each category have some characteristics, which are common for the animal objects down the
 hierarchy. Number of teeth, color of hair or fur for mammals, and for birds flying speed and
 length of wings could be examples of such characteristics. Similarly, each type of species may
