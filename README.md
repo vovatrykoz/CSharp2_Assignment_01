@@ -20,11 +20,13 @@ module) if you are an experienced Windows Forms programmer.
 - You don't have to follow the instructions given here step by step. You may change the
 GUI, and implement your own solution, provided that you meet the requirements, keep
 a good programming level, and follow the OOP rules well.
+
 2 Description
 Apu is working in the city zoo where all types of animals are welcome to have a home. He
 wishes that you write a program for him for managing the registration of the animals hosted in
 the Park. Animals are categorized according to their main species classification as Mammals,
 Birds, and Reptiles. The categories along with some species are outlined below.
+
 2.1 Category:
 - Bird, examples dove, eagle, pelican
 - Insect, as butterfly, bee, ant
@@ -52,13 +54,16 @@ c. Document your code by writing comments explaining briefly each class, each me
 and inside code wherever a line of code needs more clarification. Assume always that
 your code will be checked by somebody else and it should not be a problem to follow
 and understand your thoughts.
+
 3.1 The application must have a graphical user interface (GUI). It should be possible to create
 an object of a specific animal, for instance, an object of Dog or Monkey. The GUI should
 be adjusted so all necessary input data can be saved in the object. When a certain
 category is chosen by the user, the GUI should show which input is to be read for the
 selected category, in addition to the general input.
+
 3.2 The GUI should also show which input the
 chosen animal is to be given.
+
 3.3 Classes: Design and implement a class
 hierarchy using inheritance, with an Animal
 class as the base class. Moreover, your
@@ -72,6 +77,7 @@ Dog Monkey
 Reptile
 - Each category should include at least two animals (e.g. Dog and Monkey for
 Mammal).
+
 3.4 Attributes: Determine attributes (fields, instance variables) for the classes:
 - At least 5 attributes for the Animal class:
 o id: to be determined by the application (use any value,"0000", etc. in this
@@ -81,6 +87,7 @@ o name, age, gender and one more (pick up yourself), user input
 The attributes should be types that are unique for the object. For instances, the Mammal
 class should have attributes that are common for all mammal animals. The Dog class
 should have attributes that are specific for dogs, not for other animals.
+
 3.5 When the user presses the button Add (next figure), an object of the selected animal (e.g.
 Dog, Butterfly) is to be created in the application. The user input should fetched from the
 GUI controls and saved into the object, at the three levels:
@@ -93,25 +100,33 @@ base class (Mammal, Bird, etc).
 (Dog)
 3.6 The output from this part is to display the values saved for the selected animal as the run
 example suggests.
+
 3.7 Use encapsulation, inheritance and dynamic binding to make your application work.
 Dynamic binding is an important goal of this assignment so make sure you
 understand how it is implemented for a class hierarchy.
+
 3.7.1 Declare an object (reference variable) of Animal in the MainForm and then
 let the reference variable hold the object of the animal that you are creating.
 private Animal animal = null;
 ...
 animal = new Dog(...
+
 3.8 No input/output operation is to be included in any class other than the GUI class
 (MainForm). It is this class, which only and fully is responsible for all interactions with the
 user. No other logics should be placed in this class.
+
 3.9 The program should not crash for any input given by the user.
+
 3.10 The project should be well organized into subfolders in which you save a group of related
 classes..
+
 4 Specifications and Requirements for a higher grade (A, B)
 IIn addition to the above requirements, the following items are also to be implemented:
 For Grade B:
+
 4.1 .When the user checks the option "List all animals", all animals are listed and categories
 are grayed. Unchecking this option the GUI should go back to normal inputting status.
+
 For Grade A:
 In addition to above for Grade B, the user should be given the possibility of loading an image
 for the selected animal. However, it is not necessary in this version to save the image in the
